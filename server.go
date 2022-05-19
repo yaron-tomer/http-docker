@@ -66,7 +66,7 @@ func handleCount(c redis.Conn) func(w http.ResponseWriter, r *http.Request) {
 									<body>
 										<h1>Counter (redis + web app)</h1>
 										Count:`, counter, `<br>
-										v0.0.4
+										v0.0.7
 									</body>
 								</html>`)
 	}
