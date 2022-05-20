@@ -7,4 +7,4 @@ services:
       - /Users/yarontomer/Documents/Code/http-docker:/usr/src/app
     ports:
       - "8080:8080"
-    restart: on-failure
+    restart: always
